@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PyNAT</class>
+ <widget class="QWidget" name="PyNAT">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>330</width>
+    <height>237</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PyNAT</string>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <widget class="QLabel" name="External_input">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>90</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CheckButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>檢測</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Internal_input">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>50</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="NAT_input">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; font-weight:696; color:#444444; background-color:#ffffff;&quot;&gt;NAT1 &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; color:#444444; background-color:#ffffff;&quot;&gt;→ &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; font-weight:696; color:#ff0000; background-color:#ffffff;&quot;&gt;Full Cone&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; color:#444444; background-color:#ffffff;&quot;&gt; NAT &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; font-weight:696; color:#444444; background-color:#ffffff;&quot;&gt;NAT2 &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; color:#444444; background-color:#ffffff;&quot;&gt;→ &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; font-weight:696; color:#444444; background-color:#ffffff;&quot;&gt;Address-&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; font-weight:696; color:#ff0000; background-color:#ffffff;&quot;&gt;Restricted Cone&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; color:#444444; background-color:#ffffff;&quot;&gt; NAT&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; font-weight:696; color:#444444; background-color:#ffffff;&quot;&gt;NAT3 &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; color:#444444; background-color:#ffffff;&quot;&gt;→ &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; font-weight:696; color:#ff0000; background-color:#ffffff;&quot;&gt;Port-Restricted Cone&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; color:#444444; background-color:#ffffff;&quot;&gt; NAT &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; font-weight:696; color:#444444; background-color:#ffffff;&quot;&gt;NAT4 &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; color:#444444; background-color:#ffffff;&quot;&gt;→ &lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; font-weight:696; color:#ff0000; background-color:#ffffff;&quot;&gt;Symmetric&lt;/span&gt;&lt;span style=&quot; font-family:'Tahoma,Microsoft Yahei,Simsun'; font-size:14px; color:#444444; background-color:#ffffff;&quot;&gt; NAT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Internal_text">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>內部地址：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="External_text">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>外部地址：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ShutdownButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>200</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>關閉</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="NAT_text">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>NAT模式：</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>311</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SettingButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>200</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>設定</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
